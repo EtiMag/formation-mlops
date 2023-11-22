@@ -5,9 +5,9 @@ metadata:
 spec:
   tls:
     - hosts:
-        - EtiMag-mlops-test-api.lab.sspcloud.fr
+        - etimag-mlops-test-api.lab.sspcloud.fr
   rules:
-    - host: EtiMag-mlops-test-api.lab.sspcloud.fr
+    - host: etimag-mlops-test-api.lab.sspcloud.fr
       http:
         paths:
           - path: /
