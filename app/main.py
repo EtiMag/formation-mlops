@@ -60,6 +60,7 @@ app = FastAPI(
     title="NACE classifier",
     description="Classifier for firm activity descriptions",
     version="0.0.1",
+    swagger_ui_parameters={"configUrl": "https://user-etimag-936751-0.user.lab.sspcloud.fr/proxy/8000/openapi.json"}
 )
 
 

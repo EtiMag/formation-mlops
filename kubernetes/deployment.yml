@@ -19,7 +19,7 @@ spec:
           imagePullPolicy: Always
           env:
             - name: MLFLOW_TRACKING_URI
-              value: https://user-etimag-369519.user.lab.sspcloud.fr
+              value: https://user-etimag-637785.user.lab.sspcloud.fr
             - name: MLFLOW_MODEL_NAME
               value: nace
             - name: MLFLOW_MODEL_VERSION
